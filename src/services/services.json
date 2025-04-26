@@ -1,0 +1,99 @@
+
+[
+  {
+    "id": "web-development",
+    "title": "Web Development",
+    "icon": "code",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//web-dev.png",
+    "shortDescription": "Custom websites and web applications built with modern technologies.",
+    "description": "Our web development services include full-stack development from concept to deployment. We specialize in responsive design, progressive web apps, e-commerce solutions, and content management systems. Our team uses the latest technologies like React, Vue, Node.js, and more to create fast, secure, and scalable web solutions tailored to your business needs.",
+    "features": [
+      "Responsive website design",
+      "Progressive Web Applications (PWAs)",
+      "E-commerce solutions",
+      "Custom CMS development",
+      "Web portal development",
+      "API development & integration"
+    ]
+  },
+  {
+    "id": "mobile-app-development",
+    "title": "Mobile App Development",
+    "icon": "smartphone",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//loading2.gif",
+    "shortDescription": "Native and cross-platform mobile apps for iOS and Android.",
+    "description": "Our mobile app development services cover both native (iOS/Android) and cross-platform solutions. We build user-friendly, feature-rich mobile applications that help businesses reach their customers on any device. Our expertise includes React Native, Flutter, Swift, and Kotlin to deliver high-performance mobile experiences with seamless functionality across all platforms.",
+    "features": [
+      "iOS and Android native apps",
+      "Cross-platform development",
+      "UI/UX design for mobile",
+      "App store optimization",
+      "Mobile app testing",
+      "Ongoing maintenance & support"
+    ]
+  },
+  {
+    "id": "ui-ux-design",
+    "title": "UI/UX Design",
+    "icon": "layout",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//uiux.png",
+    "shortDescription": "User-centered design solutions that enhance user experience and engagement.",
+    "description": "Our UI/UX design services focus on creating intuitive and engaging digital experiences. We combine aesthetics with functionality to design interfaces that users love. Our design process includes user research, wireframing, prototyping, and user testing to ensure your product not only looks great but also delivers an exceptional user experience that drives engagement and conversion.",
+    "features": [
+      "User research & personas",
+      "Wireframing & prototyping",
+      "Interactive design",
+      "Usability testing",
+      "Design systems creation",
+      "Responsive & accessible design"
+    ]
+  },
+  {
+    "id": "cloud-services",
+    "title": "Cloud Services",
+    "icon": "cloud",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//cloud-service.png",
+    "shortDescription": "Cloud infrastructure setup, migration, and management.",
+    "description": "Our cloud services help businesses leverage the power of cloud computing for improved scalability, reliability, and cost efficiency. We offer comprehensive cloud solutions including infrastructure setup, migration strategies, and ongoing management. Whether you're looking to move to AWS, Azure, or Google Cloud, our team ensures a smooth transition and optimal configuration tailored to your specific needs.",
+    "features": [
+      "Cloud migration & consulting",
+      "Infrastructure as Code (IaC)",
+      "Serverless architecture",
+      "DevOps implementation",
+      "Cloud cost optimization",
+      "24/7 monitoring & support"
+    ]
+  },
+  {
+    "id": "cybersecurity",
+    "title": "Cybersecurity",
+    "icon": "shield",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//cybersecurity.png",
+    "shortDescription": "Comprehensive security solutions to protect your digital assets.",
+    "description": "Our cybersecurity services provide robust protection for your digital assets against evolving threats. We offer security assessments, penetration testing, and implementation of security best practices. Our team helps you identify vulnerabilities, mitigate risks, and comply with industry regulations to ensure your applications, infrastructure, and data remain secure in today's challenging security landscape.",
+    "features": [
+      "Security audits & assessments",
+      "Penetration testing",
+      "Secure coding practices",
+      "Compliance consulting",
+      "Security monitoring",
+      "Incident response planning"
+    ]
+  },
+  {
+    "id": "ai-solutions",
+    "title": "AI & Machine Learning",
+    "icon": "brain",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//ai-solutions.png",
+    "shortDescription": "Custom AI and machine learning solutions for business automation and insights.",
+    "description": "Our AI and machine learning services help businesses harness the power of artificial intelligence to automate processes, extract insights from data, and enhance decision-making. We develop custom AI solutions including natural language processing, computer vision, predictive analytics, and recommendation systems that integrate seamlessly with your existing infrastructure to drive innovation and business growth.",
+    "features": [
+      "Custom AI model development",
+      "Machine learning integration",
+      "Natural Language Processing",
+      "Computer Vision solutions",
+      "Predictive analytics",
+      "AI consultancy & strategy"
+    ]
+  }
+]

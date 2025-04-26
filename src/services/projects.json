@@ -1,0 +1,92 @@
+[
+  {
+    "id": "bbm-annex",
+    "title": "Bbm-Annex",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20021455.png",
+    "description": "A web application to assist students with study materials and general university life.",
+    "link": "https://bbm-annex.vercel.app",
+    "source": "https://github.com/mauricegift/bbm-annex-frontend",
+    "tech": ["React", "Vite", "Node.js", "MongoDB", "Express", "Tailwind CSS"]
+  },
+  {
+    "id": "gifted-api",
+    "title": "Gifted Api",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20022808.png",
+    "description": "Application programming interphase for developers to allow easy integration with external apps.",
+    "link": "https://api.giftedtech.web.id",
+    "source": "https://api.giftedtech.web.id",
+    "tech": ["React", "Node.js", "MongoDB", "Express", "CSS", "HTML", "JavaScript", "Cheerio", "Axios", "Puppeteer"]
+  },
+  {
+    "id": "gifted-portfolio",
+    "title": "Gifted Portfolio",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-22%20112843.png",
+    "description": "An animated mordern self crafted portfolio website to showcase Gifted's projects and skills, with blog and projects pages.",
+    "link": "https://portfolio.giftedtech.web.id",
+    "source": "https://github.com/mauricegift/gifted-portfolio",
+    "tech": ["React", "Vite", "HTML", "Eslint", "Tailwind CSS", "Framer Motion", "React Router Dom"]
+  },
+  {
+    "id": "gifted-old-portfolio",
+    "title": "Gifted Old Portfolio",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20041228.png",
+    "description": "An animated portfolio website to showcase Gifted's projects and skills.",
+    "link": "https://portfolio-old.giftedtech.web.id",
+    "source": "https://github.com/mauricegift/gifted-old-portfolio",
+    "tech": ["Bootstrapcss", "Css", "HTML"]
+  },
+  {
+    "id": "gifted-md",
+    "title": "Gifted-Md",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20021723.png",
+    "description": "A multidevice whatsapp user bot to enhance general whatsapp experience.",
+    "link": "https://pairing.giftedtech.web.id",
+    "source": "https://github.com/mauricegift/gifted-md",
+    "tech": ["Node.js", "Express", "CSS", "BaileysApi", "HTML", "JavaScript"]
+  },
+  {
+    "id": "gifted-cdn",
+    "title": "Gifted Cdn",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20021657.png",
+    "description": "All file uploader for storing and retrieving files at ease,,,with an api too.",
+    "link": "https://cdn.giftedtech.web.id",
+    "source": "https://cdn.giftedtech.web.id",
+    "tech": ["Node.js", "MongoDB", "Express", "Tailwind CSS", "MegaNz", "Eslint"]
+  },
+  {
+    "id": "gifted-ytdl",
+    "title": "Gifted-Ytdl",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20022321.png",
+    "description": "A free youtube downloader for downloading music and videos from youtube yet not affiliated in any way with youtube.",
+    "link": "https://ytdl.giftedtech.web.id",
+    "source": "https://ytdl.giftedtech.web.id",
+    "tech": ["Node.js", "Express", "CSS", "HTML", "JavaScript"]
+  },
+  {
+    "id": "tg-contact-form",
+    "title": "Telegram Contact Form",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20022946.png",
+    "description": "A simple contact form submitted via telegram bot",
+    "link": "https://api.giftedtech.web.id/contact",
+    "source": "https://github.com/mauricegift/telegram-contact-form",
+    "tech": ["Node.js", "Express", "CSS", "HTML", "JavaScript"]
+  },
+  {
+    "id": "telegram-bot",
+    "title": "Telegram Bot",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20021821.png",
+    "description": "A telegram user bot integrated with various api, supports plugins and cases.",
+    "link": "https://t.me/giftedmd_bot",
+    "source": "https://github.com/mauricegift/telegram-bot",
+    "tech": ["Node.js", "Express", "CSS", "TelegramApi", "HTML", "JavaScript"]
+  },
+  {
+    "id": "web-dl",
+    "title": "Website Downloader",
+    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//webdl.png",
+    "description": "A tool for grabbing source code of websites.",
+    "link": "https://webdl.giftedtech.web.id",
+    "source": "https://github.com/mauricegift/website-downloader",
+    "tech": ["Node.js", "Express", "CSS", "HTML", "JavaScript", "Handlebars"]
+  }
+]
