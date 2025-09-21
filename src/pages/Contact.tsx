@@ -129,8 +129,8 @@ const Contact = () => {
                   <div className="ml-4">
                     <h3 className="mb-1 font-medium">Email</h3>
                     <p className="text-muted-foreground">
-                      <a href="mailto:contact@dynamictech.web.id" className="hover:text-primary">
-                        contact@dynamictech.web.id
+                      <a href="mailto:darrelmucheri@gmail.com" className="hover:text-primary">
+                        darrelmucheri@gmail.com
                       </a>
                     </p>
                   </div>
@@ -154,8 +154,8 @@ const Contact = () => {
                   <div className="ml-4">
                     <h3 className="mb-1 font-medium">Phone</h3>
                     <p className="text-muted-foreground">
-                      <a href="tel:+1234567890" className="hover:text-primary">
-                        +254 (715) 206-562
+                      <a href="tel:+263719647303" className="hover:text-primary">
+                        +263 (719) 647-303
                       </a>
                     </p>
                   </div>
@@ -179,8 +179,8 @@ const Contact = () => {
                   <div className="ml-4">
                     <h3 className="mb-1 font-medium">Office</h3>
                     <p className="text-muted-foreground">
-                      Moi University<br />
-                      Annex Campus, Eldoret<br />
+                      Harare, Zimbabwe<br />
+                      Available for Remote Work<br />
                     </p>
                   </div>
                 </div>
@@ -363,7 +363,7 @@ const Contact = () => {
       >
         <div className="overflow-hidden rounded-lg h-96 bg-muted/50">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7979.35649293976!2d35.294354355789196!3d0.4801101744938789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780fe08d95d9633%3A0x7080e30866256693!2sMoi%20University%20Annex!5e0!3m2!1sen!2ske!4v1745372463327!5m2!1sen!2ske"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119493.69000969073!2d30.924854695312504!3d-17.841754500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a3bb0df2ce3f%3A0x4c6b9b5dfa1e0610!2sHarare%2C%20Zimbabwe!5e0!3m2!1sen!2szw!4v1645372463327!5m2!1sen!2szw"
             width="100%"
             height="100%"
             style={{ border: 0 }}

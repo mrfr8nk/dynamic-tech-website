@@ -2,11 +2,11 @@
 
 - For better experience please view in dark theme
 
-- **[VISITE WEBSITE](https://giftedtech.web.id)**
+- **[VISIT WEBSITE](https://dynamictech.web.id)**
 
 ![Website Screenshot](https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//gifted-tech-web.png) 
 
-- Welcome to Dynamic Tech where we create innovative digital solutions that transform projects and businesses.
+- Welcome to Dynamic Tech where we create innovative digital solutions that transform projects and businesses. Founded by 17-year-old visionary Darrell Mucheri from Harare, Zimbabwe.
 
 ## 🚀 Features
 

@@ -67,7 +67,7 @@ const AboutUs = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl md:text-6xl font-bold text-white mb-6"
           >
-            About Gifted Tech
+            About Dynamic Tech
           </motion.h1>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -105,13 +105,13 @@ const AboutUs = () => {
           >
             <motion.div variants={staggerItem}>
               <p className="text-lg text-gray-600 mb-4">
-                Dynamic Tech is a cutting-edge technology company dedicated to delivering innovative solutions that transform businesses and empower communities.
+                Dynamic Tech is a cutting-edge technology company founded by 17-year-old visionary Darrell Mucheri from Harare, Zimbabwe, dedicated to delivering innovative solutions that transform businesses and empower communities.
               </p>
               <p className="text-lg text-gray-600 mb-4">
-                Founded in 2020, we've grown from a small startup to a trusted partner for businesses worldwide, helping them navigate the digital landscape with confidence.
+                Founded in 2023, we've quickly established ourselves as a trusted partner for businesses worldwide, helping them navigate the digital landscape with confidence and innovative solutions.
               </p>
               <p className="text-lg text-gray-600">
-                Our team of passionate engineers, designers, and strategists work tirelessly to create products that not only meet but exceed expectations.
+                Our young, passionate team combines fresh perspectives with technical excellence to create products that not only meet but exceed expectations.
               </p>
             </motion.div>
             <motion.div variants={staggerItem} className="relative h-64 md:h-96 rounded-xl overflow-hidden shadow-2xl">
@@ -359,19 +359,10 @@ const AboutUs = () => {
           >
             {[
               {
-                name: "Gifted Maurice",
+                name: "Darrell Mucheri",
                 role: "CEO & Founder",
-                image: "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//mygifted2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
-              },
-              {
-                name: "Regina Joel",
-                role: "CTO",
-                image: "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Regina%20Joel.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
-              },
-              {
-                name: "Spencer Onyango",
-                role: "Lead Marketer",
-                image: "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Spencer%20Onyango.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+                image: null,
+                initials: "DM"
               }
             ].map((member, index) => (
               <motion.div 
@@ -380,11 +371,17 @@ const AboutUs = () => {
                 className="text-center"
               >
                 <div className="relative mb-4 overflow-hidden rounded-xl aspect-square">
-                  <img 
-                    src={member.image} 
-                    alt={member.name}
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-                  />
+                  {member.image ? (
+                    <img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-r from-primary to-accent flex items-center justify-center text-white text-6xl font-bold">
+                      {member.initials}
+                    </div>
+                  )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                     <div className="text-white text-left">
                       <p className="font-semibold">{member.name}</p>

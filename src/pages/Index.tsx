@@ -30,44 +30,46 @@ const featuredServices = [
 const testimonials = [
   {
     id: 1,
-    name: "Regina Joel",
-    position: "CTO, Gifted Tech",
-    content: "From concept to execution, Dynamic Tech delivered excellence at every step. Their dedication to quality made all the difference.",
-    avatar: "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Regina%20Joel.jpg",
+    name: "Sarah Johnson",
+    position: "Marketing Director, TechStart Zimbabwe",
+    content: "Darrell's vision and technical expertise at Dynamic Tech helped us launch our digital platform successfully. His young age brings fresh perspectives.",
+    avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b434?w=150&h=150&fit=crop&crop=face",
   },
   {
     id: 2,
-    name: "Dancan Ochieng",
-    position: "CTO/CEO, DanTech Securenet",
-    content: "Working with Dynamic Tech transformed our digital presence. Their team delivered beyond our expectations with exceptional attention to detail.",
-    avatar: "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Dantech%20Securenet.jpg",
+    name: "Michael Chen",
+    position: "CEO, InnovateZW",
+    content: "Working with Dynamic Tech transformed our online presence. Darrell's dedication and innovative approach exceeded our expectations.",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
   },
   {
     id: 3,
-    name: "Spencer Onyango",
-    position: "Marketer, Elite Group",
-    content: "The website they built for us has significantly increased our conversion rates. Their understanding of our vision was remarkable.",
-    avatar: "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Spencer%20Onyango.jpg",
+    name: "Grace Mutasa",
+    position: "Founder, Digital Solutions Africa",
+    content: "Dynamic Tech delivered a robust e-commerce platform that increased our sales by 300%. Darrell's attention to detail is remarkable.",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
   },
   {
     id: 4,
-    name: "Hon Peter Rolland",
-    position: "Founder/CEO, CBS CyberSpace",
-    content: "Dynamic Tech's expertise in cybersecurity is unmatched. They provided us with a robust solution that has kept our data safe and secure.",
-    avatar: "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//CBS%20Rolland.jpg",
+    name: "James Moyo",
+    position: "Director, ZimTech Innovations",
+    content: "Dynamic Tech's cybersecurity solutions have kept our systems secure. Darrell combines technical expertise with excellent communication.",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
   }
-  
+
 ];
 
 // Founder code snippet
 const founderCodeSnippet = `const founder = {
-  name: "Maurice Gift",
-  role: "Lead Developer & Founder",
-  skills: ["React+Vite",", "Node.js", "TypeScript", "NextJs",  "Python", "MongoDB", "UI/UX Design"],
-  experience: "1+ years",
-  education: "Bachelor of Business Management",
+  name: "Darrell Mucheri",
+  role: "CEO & Founder",
+  skills: ["React+Vite", "Node.js", "TypeScript", "NextJs", "Python", "MongoDB", "UI/UX Design"],
+  experience: "2+ years",
+  education: "A Level Pure Sciences Student",
+  age: 17,
+  location: "Harare, Zimbabwe",
   mission: "To create innovative digital solutions that transform businesses",
-  contact: "contact@dynamictech.web.id"
+  contact: "darrelmucheri@gmail.com"
 };
 
 // Passionate about combining creativity with technical excellence
@@ -387,31 +389,28 @@ const Index = () => {
               className="flex justify-center mb-4 p-1 rounded-full border-4 border-primary"
               variants={fadeInUp}
             >
-              <img 
-                src="https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//mygifted2.png" 
-                alt="Founder" 
-                className="object-cover w-32 h-32 rounded-full shadow-xl md:w-40 md:h-40"
-                loading="lazy"
-              />
+              <div className="flex items-center justify-center w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-r from-primary to-accent text-white text-4xl md:text-5xl font-bold shadow-xl">
+                DM
+              </div>
             </motion.div>
             <h2 className="text-3xl font-bold md:text-4xl">
               Meet <span className={showOur ? 'text-primary' : 'text-transparent'}>The</span> Founder
             </h2>
-            
+
             <motion.div
               animate={{ opacity: showPortfolioIcon ? 1 : 0.7, scale: [1, 1.03, 1] }}
               transition={{ duration: 1.5, repeat: Infinity }}
               className="mt-4"
             >
               <Button variant="default" size="sm" asChild className="rounded-full">
-                <Link to="https://portfolio.giftedtech.web.id">
-                  <FiUser className={`mr-2 ${showPortfolioIcon ? 'opacity-100' : 'opacity-70'}`} /> View Portfolio
+                <Link to="/contact">
+                  <FiUser className={`mr-2 ${showPortfolioIcon ? 'opacity-100' : 'opacity-70'}`} /> Contact Me
                 </Link>
               </Button>
             </motion.div>
             
             <p className="mx-auto mt-4 text-lg text-muted-foreground max-w-2xl md:text-xl">
-              He is passionate about technology and creating solutions that make differences.
+              A 17-year-old visionary from Harare, Zimbabwe, passionate about technology and creating solutions that make a difference.
             </p>
           </motion.div>
           
@@ -632,7 +631,7 @@ const Index = () => {
           >
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
-                <AccordionTrigger className="italic">What services does Gifted Tech offer?</AccordionTrigger>
+                <AccordionTrigger className="italic">What services does Dynamic Tech offer?</AccordionTrigger>
                 <AccordionContent>
                   We provide comprehensive digital solutions including custom web development, mobile applications, 
                   UI/UX design, cloud services, and cybersecurity solutions tailored to your business needs.
