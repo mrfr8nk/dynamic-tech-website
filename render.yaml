@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: gifted-tech-website
+    name: dynamic-tech-website
     env: static
     buildCommand: npm run build
     staticPublishPath: ./dist
