@@ -51,6 +51,20 @@ const AboutUs = () => {
     }
   };
 
+  // Added fadeInUp variant for staggered item animations
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 20 },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: "spring",
+        stiffness: 100,
+        delay: 0.3 // Default delay, can be overridden
+      }
+    }
+  };
+
   return (
     <div className="overflow-hidden">
       {/* Hero Section */}
@@ -361,7 +375,7 @@ const AboutUs = () => {
               {
                 name: "Darrell Mucheri",
                 role: "CEO & Founder",
-                image: null,
+                image: "https://i.postimg.cc/prr8wNPX/20250809-091036.jpg",
                 initials: "DM"
               }
             ].map((member, index) => (
@@ -378,9 +392,13 @@ const AboutUs = () => {
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                     />
                   ) : (
-                    <div className="w-full h-full bg-gradient-to-r from-primary to-accent flex items-center justify-center text-white text-6xl font-bold">
-                      {member.initials}
-                    </div>
+                    <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shadow-xl">
+                        <img 
+                          src="https://i.postimg.cc/prr8wNPX/20250809-091036.jpg" 
+                          alt="Darrell Mucheri" 
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                     <div className="text-white text-left">
