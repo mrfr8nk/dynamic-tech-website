@@ -11,7 +11,7 @@ const Pricing = () => {
             tiers: [
               {
                 name: "Basic Website",
-                price: "Ksh. 5,000 - 15,000",
+                price: "$40 - $115",
                 features: [
                   "1-5 Pages Website",
                   "Responsive Design",
@@ -25,7 +25,7 @@ const Pricing = () => {
               },
               {
                 name: "Business Website",
-                price: "Ksh. 15,000 - 35,000",
+                price: "$115 - $270",
                 features: [
                   "5-10 Pages Website",
                   "CMS Integration",
@@ -41,10 +41,10 @@ const Pricing = () => {
               },
               {
                 name: "E-commerce Website",
-                price: "Ksh. 35,000 - 100,000",
+                price: "$270 - $770",
                 features: [
                   "Product Catalog",
-                  "Payment Gateway(Mpesa/Stripe)",
+                  "Payment Gateway(Stripe/PayPal)",
                   "User Accounts",
                   "Admin Dashboard",
                   "Inventory Management",
@@ -56,17 +56,17 @@ const Pricing = () => {
                   "Custom Design",
                   "SSL Certificate"
                 ],
-                technologies: ["React+Vite", "Express", "PostgreSQL/Mongo", "Mpesa Daraja", "Stripe", "Next.js", "Tailwind CSS"]
+                technologies: ["React+Vite", "Express", "PostgreSQL/Mongo", "Stripe", "PayPal", "Next.js", "Tailwind CSS"]
               }
             ],
-            range: "Ksh 5,000 - Ksh 100,000"
+            range: "$40 - $770"
           },
           {
             title: "Bot Services",
             tiers: [
               {
                 name: "Whatsapp Bot",
-                price: "Ksh. 150 - Ksh 300/3months",
+                price: "$1.15 - $2.30/3months",
                 features: [
                   "User Commands",
                   "Quick Responses",
@@ -87,7 +87,7 @@ const Pricing = () => {
               },
                 {
                 name: "Telegram Bot",
-                price: "Ksh. 150 - Ksh 300/3months",
+                price: "$1.15 - $2.30/3months",
                 features: [
                   "Custom Commands",
                   "Single Platform",
@@ -98,14 +98,14 @@ const Pricing = () => {
                 technologies: ["Javascript", "TelegramApi", "Node.js", "MongoDB", "Express"]
               }
             ],
-            range: "Ksh 150 - Ksh 1000"
+            range: "$1.15 - $7.70"
           },
           {
             title: "App Designing",
             tiers: [
               {
                 name: "Basic Design",
-                price: "Ksh. 5,000 - 10,000",
+                price: "$40 - $77",
                 features: [
                   "Wireframes",
                   "UI Mockups",
@@ -117,7 +117,7 @@ const Pricing = () => {
               },
               {
                 name: "Standard Design",
-                price: "Ksh. 10,000 - 10,000",
+                price: "$77 - $115",
                 features: [
                   "Full UI/UX",
                   "Interactive Prototype",
@@ -129,7 +129,7 @@ const Pricing = () => {
               },
               {
                 name: "Premium Design",
-                price: "Ksh. 20,000 - 30,000",
+                price: "$155 - $230",
                 features: [
                   "Custom Illustrations",
                   "Animations",
@@ -140,14 +140,14 @@ const Pricing = () => {
                 technologies: ["Figma", "After Effects", "Blender"]
               }
             ],
-            range: "Ksh 10,000 - Ksh 30,000"
+            range: "$40 - $230"
           },
           {
             title: "UI/UX Design",
             tiers: [
               {
                 name: "Basic Package",
-                price: "Ksh. 10,000 - 25,000",
+                price: "$77 - $195",
                 features: [
                   "User Research",
                   "Wireframing",
@@ -159,7 +159,7 @@ const Pricing = () => {
               },
               {
                 name: "Professional Package",
-                price: "Ksh. 25,000 - 35,000",
+                price: "$195 - $270",
                 features: [
                   "Competitor Analysis",
                   "High-Fidelity Design",
@@ -171,7 +171,7 @@ const Pricing = () => {
               },
               {
                 name: "Enterprise Package",
-                price: "Ksh. 35,000 - 45,000",
+                price: "$270 - $345",
                 features: [
                   "Full UX Audit",
                   "Design System",
@@ -182,14 +182,14 @@ const Pricing = () => {
                 technologies: ["Figma", "ProtoPie", "Webflow"]
               }
             ],
-            range: "Ksh 10,000 - Ksh 45,000"
+            range: "$77 - $345"
           },
           {
             title: "Cloud Services",
             tiers: [
               {
                 name: "Starter Plan",
-                price: "Ksh. 2,000 - 10,000/month",
+                price: "$15 - $77/month",
                 features: [
                   "Basic Hosting",
                   "10GB Storage",
@@ -201,7 +201,7 @@ const Pricing = () => {
               },
               {
                 name: "Business Plan",
-                price: "Ksh. 10,000 - 50,000/month",
+                price: "$77 - $385/month",
                 features: [
                   "Scalable Infrastructure",
                   "Load Balancing",
@@ -213,7 +213,7 @@ const Pricing = () => {
               },
               {
                 name: "Enterprise Plan",
-                price: "Ksh. 50,000 - 300,000/month",
+                price: "$385 - $2,310/month",
                 features: [
                   "Dedicated Servers",
                   "24/7 Monitoring",
@@ -224,14 +224,14 @@ const Pricing = () => {
                 technologies: ["AWS", "Azure", "Kubernetes"]
               }
             ],
-            range: "Ksh 2,000 - Ksh 300,000/month"
+            range: "$15 - $2,310/month"
           },
           {
             title: "AI & Machine Learning",
             tiers: [
               {
                 name: "Basic Model",
-                price: "Ksh. 5,000 - 20,000",
+                price: "$40 - $155",
                 features: [
                   "Pre-trained Model",
                   "Basic Integration",
@@ -243,7 +243,7 @@ const Pricing = () => {
               },
               {
                 name: "Custom Model",
-                price: "Ksh. 20,000 - 100,000",
+                price: "$155 - $770",
                 features: [
                   "Custom Training",
                   "Data Processing",
@@ -255,7 +255,7 @@ const Pricing = () => {
               },
               {
                 name: "Advanced AI Solution",
-                price: "Ksh. 100,000 - 200,000",
+                price: "$770 - $1,540",
                 features: [
                   "Deep Learning",
                   "Computer Vision",
@@ -266,7 +266,7 @@ const Pricing = () => {
                 technologies: ["TensorFlow", "GPT", "BERT"]
               }
             ],
-            range: "Ksh 5,000 - Ksh 200,000"
+            range: "$40 - $1,540"
           },
           {
             title: "Enterprise Solutions",

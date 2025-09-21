@@ -179,27 +179,26 @@ export default function Footer() {
             <motion.div variants={itemVariants}>
               <h3 className="font-medium text-lg mb-4">Contact Us</h3>
               <address className="not-italic text-sm text-muted-foreground space-y-2">
-                <p>Moi University</p>
-                <p>Annex Campus</p>
-                <p>Eldoret, Kenya</p>
+                <p>Harare, Zimbabwe</p>
+                <p>Available for Remote Work</p>
                 <p className="mt-4">
                   <motion.a 
-                    href="tel:+254715206562" 
+                    href="tel:+263719647303" 
                     className="hover:text-foreground transition-colors"
                     whileHover={{ x: 5 }}
                     transition={{ duration: 0.2 }}
                   >
-                    +254 (715) 206-562
+                    +263 (719) 647-303
                   </motion.a>
                 </p>
                 <p>
                   <motion.a 
-                    href="mailto:info@giftedtech.web.id" 
+                    href="mailto:darrelmucheri@gmail.com" 
                     className="hover:text-foreground transition-colors"
                     whileHover={{ x: 5 }}
                     transition={{ duration: 0.2 }}
                   >
-                    contact@giftedtech.web.id
+                    darrelmucheri@gmail.com
                   </motion.a>
                 </p>
               </address>
