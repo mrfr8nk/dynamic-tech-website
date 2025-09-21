@@ -15,7 +15,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 
-const logoImage = 'https://i.postimg.cc/Jng46x5S/Chat-GPT-Image-Sep-21-2025-07-48-37-AM.png';
+const logoImage = 'https://cdn.mrfrankofc.gleeze.com/dyna_tech_logo.png';
 
 type NavLink = {
   name: string;
