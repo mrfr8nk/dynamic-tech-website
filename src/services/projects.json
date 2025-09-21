@@ -37,6 +37,15 @@
     "tech": ["React", "Socket.io", "Node.js", "Express", "MongoDB", "Tailwind CSS"]
   },
   {
+    "id": "subzero-nodes",
+    "title": "SubZero Nodes",
+    "image": "https://cdn.mrfrankofc.gleeze.com/nodes.jpg",
+    "description": "SubZero nodes application  real-time bot hosting site using Github Actions.",
+    "link": "https://subzeronodez.gleeze.com/",
+    "source": "https://github.com/mrfr8nk/angular-sockets",
+    "tech": ["Subzero", "TypeScript", "SubZeroNodes", "Node.js", "Express", "WebSockets"]
+  },
+  {
     "id": "angular-sockets",
     "title": "Angular Sockets",
     "image": "https://mrfrankk-cdn.hf.space/media/angularsockets.png",
