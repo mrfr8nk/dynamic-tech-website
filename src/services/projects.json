@@ -1,92 +1,66 @@
+
 [
   {
-    "id": "bbm-annex",
-    "title": "Bbm-Annex",
-    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20021455.png",
-    "description": "A web application to assist students with study materials and general university life.",
-    "link": "https://bbm-annex.vercel.app",
-    "source": "https://github.com/mauricegift/bbm-annex-frontend",
-    "tech": ["React", "Vite", "Node.js", "MongoDB", "Express", "Tailwind CSS"]
+    "id": "st-marys-web",
+    "title": "St Marys Web",
+    "image": "https://mrfrankk-cdn.hf.space/media/stmarys.png",
+    "description": "A modern website for St Marys institution with responsive design and user-friendly interface.",
+    "link": "https://stmarys.dynamictech.web.id",
+    "source": "https://github.com/mrfr8nk/st-marys-web",
+    "tech": ["React", "Vite", "Tailwind CSS", "TypeScript", "Node.js"]
   },
   {
-    "id": "gifted-api",
-    "title": "Gifted Api",
-    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20022808.png",
-    "description": "Application programming interphase for developers to allow easy integration with external apps.",
-    "link": "https://api.giftedtech.web.id",
-    "source": "https://api.giftedtech.web.id",
-    "tech": ["React", "Node.js", "MongoDB", "Express", "CSS", "HTML", "JavaScript", "Cheerio", "Axios", "Puppeteer"]
+    "id": "dynamic-cdn",
+    "title": "Dynamic CDN",
+    "image": "https://mrfrankk-cdn.hf.space/media/cdn.png",
+    "description": "Content delivery network for storing and retrieving files with API integration and fast delivery.",
+    "link": "https://cdn.dynamictech.web.id",
+    "source": "https://github.com/mrfr8nk/dynamic-cdn",
+    "tech": ["Node.js", "Express", "MongoDB", "Multer", "Cloudinary", "REST API"]
   },
   {
-    "id": "gifted-portfolio",
-    "title": "Gifted Portfolio",
-    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-22%20112843.png",
-    "description": "An animated mordern self crafted portfolio website to showcase Gifted's projects and skills, with blog and projects pages.",
-    "link": "https://portfolio.giftedtech.web.id",
-    "source": "https://github.com/mauricegift/gifted-portfolio",
-    "tech": ["React", "Vite", "HTML", "Eslint", "Tailwind CSS", "Framer Motion", "React Router Dom"]
+    "id": "dynamic-apis",
+    "title": "Dynamic APIs",
+    "image": "https://mrfrankk-cdn.hf.space/media/api.png",
+    "description": "Comprehensive API collection for developers with various endpoints and integration capabilities.",
+    "link": "https://api.dynamictech.web.id",
+    "source": "https://github.com/mrfr8nk/dynamic-apis",
+    "tech": ["Node.js", "Express", "MongoDB", "JWT", "Swagger", "REST API"]
   },
   {
-    "id": "gifted-old-portfolio",
-    "title": "Gifted Old Portfolio",
-    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20041228.png",
-    "description": "An animated portfolio website to showcase Gifted's projects and skills.",
-    "link": "https://portfolio-old.giftedtech.web.id",
-    "source": "https://github.com/mauricegift/gifted-old-portfolio",
-    "tech": ["Bootstrapcss", "Css", "HTML"]
+    "id": "chatify",
+    "title": "Chatify",
+    "image": "https://mrfrankk-cdn.hf.space/media/ctatify.png",
+    "description": "Real-time chat application with modern UI and seamless messaging experience.",
+    "link": "https://chatify.dynamictech.web.id",
+    "source": "https://github.com/mrfr8nk/chatify",
+    "tech": ["React", "Socket.io", "Node.js", "Express", "MongoDB", "Tailwind CSS"]
   },
   {
-    "id": "gifted-md",
-    "title": "Gifted-Md",
-    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20021723.png",
-    "description": "A multidevice whatsapp user bot to enhance general whatsapp experience.",
-    "link": "https://pairing.giftedtech.web.id",
-    "source": "https://github.com/mauricegift/gifted-md",
-    "tech": ["Node.js", "Express", "CSS", "BaileysApi", "HTML", "JavaScript"]
+    "id": "angular-sockets",
+    "title": "Angular Sockets",
+    "image": "https://mrfrankk-cdn.hf.space/media/angularsockets.png",
+    "description": "Angular application demonstrating real-time communication using WebSockets.",
+    "link": "https://angularsockets.dynamictech.web.id",
+    "source": "https://github.com/mrfr8nk/angular-sockets",
+    "tech": ["Angular", "TypeScript", "Socket.io", "Node.js", "Express", "Bootstrap"]
   },
   {
-    "id": "gifted-cdn",
-    "title": "Gifted Cdn",
-    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20021657.png",
-    "description": "All file uploader for storing and retrieving files at ease,,,with an api too.",
-    "link": "https://cdn.giftedtech.web.id",
-    "source": "https://cdn.giftedtech.web.id",
-    "tech": ["Node.js", "MongoDB", "Express", "Tailwind CSS", "MegaNz", "Eslint"]
+    "id": "subzero-md",
+    "title": "SubZero MD",
+    "image": "https://mrfrankk-cdn.hf.space/media/subzeromd.png",
+    "description": "Advanced WhatsApp bot with multiple features and plugin support for enhanced messaging.",
+    "link": "https://subzeromd.dynamictech.web.id",
+    "source": "https://github.com/mrfr8nk/subzero-md",
+    "tech": ["Node.js", "Baileys", "JavaScript", "WhatsApp API", "Express"]
   },
   {
-    "id": "gifted-ytdl",
-    "title": "Gifted-Ytdl",
-    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20022321.png",
-    "description": "A free youtube downloader for downloading music and videos from youtube yet not affiliated in any way with youtube.",
-    "link": "https://ytdl.giftedtech.web.id",
-    "source": "https://ytdl.giftedtech.web.id",
-    "tech": ["Node.js", "Express", "CSS", "HTML", "JavaScript"]
-  },
-  {
-    "id": "tg-contact-form",
-    "title": "Telegram Contact Form",
-    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20022946.png",
-    "description": "A simple contact form submitted via telegram bot",
-    "link": "https://api.giftedtech.web.id/contact",
-    "source": "https://github.com/mauricegift/telegram-contact-form",
-    "tech": ["Node.js", "Express", "CSS", "HTML", "JavaScript"]
-  },
-  {
-    "id": "telegram-bot",
-    "title": "Telegram Bot",
-    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Screenshot%202025-04-21%20021821.png",
-    "description": "A telegram user bot integrated with various api, supports plugins and cases.",
-    "link": "https://t.me/giftedmd_bot",
-    "source": "https://github.com/mauricegift/telegram-bot",
-    "tech": ["Node.js", "Express", "CSS", "TelegramApi", "HTML", "JavaScript"]
-  },
-  {
-    "id": "web-dl",
-    "title": "Website Downloader",
-    "image": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//webdl.png",
-    "description": "A tool for grabbing source code of websites.",
-    "link": "https://webdl.giftedtech.web.id",
-    "source": "https://github.com/mauricegift/website-downloader",
-    "tech": ["Node.js", "Express", "CSS", "HTML", "JavaScript", "Handlebars"]
+    "id": "subzero-pairing",
+    "title": "SubZero Pairing Site",
+    "image": "https://mrfrankk-cdn.hf.space/media/subzeromdpairing.png",
+    "description": "Pairing website for SubZero MD bot using Baileys library for WhatsApp integration.",
+    "link": "https://pairing.dynamictech.web.id",
+    "source": "https://github.com/mrfr8nk/subzero-pairing",
+    "tech": ["Node.js", "Baileys", "Express", "QR Code", "WhatsApp Web API", "HTML"]
   }
 ]
