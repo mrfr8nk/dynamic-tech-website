@@ -1,5 +1,5 @@
 {
-  "name": "gifted-tech-website",
+  "name": "dynamic-tech-website",
   "private": true,
   "version": "1.0.4",
   "type": "module",
@@ -95,3 +95,4 @@
     "vite": "^5.4.1"
   }
 }
+
