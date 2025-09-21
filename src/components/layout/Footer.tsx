@@ -113,7 +113,7 @@ export default function Footer() {
             <motion.div className="space-y-4" variants={itemVariants}>
               <Logo />
               <p className="text-muted-foreground text-sm mt-4">
-                Providing innovative tech solutions and services to help businesses thrive in the digital world.
+                Dynamic tech solutions and services to help businesses thrive in the digital world.
               </p>
               <div className="flex space-x-4 mt-6">
                 {socialLinks.map((social, index) => (
@@ -211,7 +211,7 @@ export default function Footer() {
             variants={itemVariants}
           >
             <p className="text-sm text-muted-foreground">
-              © 2024 - {currentYear} Gifted Tech. All rights reserved.
+              © 2024 - {currentYear} Dynamic Tech. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-4 md:gap-6 mt-4 md:mt-0">
               <Link to="/privacy-policy" className="text-xs text-muted-foreground hover:text-foreground transition-colors">

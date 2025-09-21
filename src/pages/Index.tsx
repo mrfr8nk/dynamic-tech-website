@@ -32,14 +32,14 @@ const testimonials = [
     id: 1,
     name: "Regina Joel",
     position: "CTO, Gifted Tech",
-    content: "From concept to execution, Gifted Tech delivered excellence at every step. Their dedication to quality made all the difference.",
+    content: "From concept to execution, Dynamic Tech delivered excellence at every step. Their dedication to quality made all the difference.",
     avatar: "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Regina%20Joel.jpg",
   },
   {
     id: 2,
     name: "Dancan Ochieng",
     position: "CTO/CEO, DanTech Securenet",
-    content: "Working with Gifted Tech transformed our digital presence. Their team delivered beyond our expectations with exceptional attention to detail.",
+    content: "Working with Dynamic Tech transformed our digital presence. Their team delivered beyond our expectations with exceptional attention to detail.",
     avatar: "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//Dantech%20Securenet.jpg",
   },
   {
@@ -53,7 +53,7 @@ const testimonials = [
     id: 4,
     name: "Hon Peter Rolland",
     position: "Founder/CEO, CBS CyberSpace",
-    content: "Gifted Tech's expertise in cybersecurity is unmatched. They provided us with a robust solution that has kept our data safe and secure.",
+    content: "Dynamic Tech's expertise in cybersecurity is unmatched. They provided us with a robust solution that has kept our data safe and secure.",
     avatar: "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//CBS%20Rolland.jpg",
   }
   
@@ -67,7 +67,7 @@ const founderCodeSnippet = `const founder = {
   experience: "1+ years",
   education: "Bachelor of Business Management",
   mission: "To create innovative digital solutions that transform businesses",
-  contact: "contact@giftedtech.web.id"
+  contact: "contact@dynamictech.web.id"
 };
 
 // Passionate about combining creativity with technical excellence

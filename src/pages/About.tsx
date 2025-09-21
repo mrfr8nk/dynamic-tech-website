@@ -105,7 +105,7 @@ const AboutUs = () => {
           >
             <motion.div variants={staggerItem}>
               <p className="text-lg text-gray-600 mb-4">
-                Gifted Tech is a cutting-edge technology company dedicated to delivering innovative solutions that transform businesses and empower communities.
+                Dynamic Tech is a cutting-edge technology company dedicated to delivering innovative solutions that transform businesses and empower communities.
               </p>
               <p className="text-lg text-gray-600 mb-4">
                 Founded in 2020, we've grown from a small startup to a trusted partner for businesses worldwide, helping them navigate the digital landscape with confidence.

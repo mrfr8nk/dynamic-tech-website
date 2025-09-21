@@ -1,4 +1,4 @@
-# Gifted Tech Website
+# Dynamic Tech Website
 
 - For better experience please view in dark theme
 
@@ -6,7 +6,7 @@
 
 ![Website Screenshot](https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//gifted-tech-web.png) 
 
-- Welcome to Gifted Tech Nexus where we create innovative digital solutions that transform projects and businesses.
+- Welcome to Dynamic Tech where we create innovative digital solutions that transform projects and businesses.
 
 ## 🚀 Features
 

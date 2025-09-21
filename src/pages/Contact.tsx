@@ -129,8 +129,8 @@ const Contact = () => {
                   <div className="ml-4">
                     <h3 className="mb-1 font-medium">Email</h3>
                     <p className="text-muted-foreground">
-                      <a href="mailto:contact@giftedtech.web.id" className="hover:text-primary">
-                        contact@giftedtech.web.id
+                      <a href="mailto:contact@dynamictech.web.id" className="hover:text-primary">
+                        contact@dynamictech.web.id
                       </a>
                     </p>
                   </div>
@@ -370,7 +370,7 @@ const Contact = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Gifted Tech Office Location"
+            title="Dynamic Tech Office Location"
           />
         </div>
       </motion.div>

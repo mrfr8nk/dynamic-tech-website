@@ -15,8 +15,8 @@ export function Logo({ className }: LogoProps) {
         />
       </div>
       <div className="ml-2 font-bold text-xl">
-        <span className="text-[#1EAEDB]">Gifted</span>
-        <span className="dark:text-white text-black">Tech</span>
+        <span className="text-[#1EAEDB]">Dynamic</span>
+        <span className="dark:text-white text-black"> Tech</span>
       </div>
     </div>
   );

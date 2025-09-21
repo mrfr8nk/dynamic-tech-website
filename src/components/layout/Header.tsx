@@ -177,8 +177,8 @@ export default function Header() {
                 whileHover={{ scale: 1.1 }}
               />
               <span className="ml-2 text-xl font-bold">
-                <span className="text-blue-600">Gifted</span>
-                <span className={theme === 'light' ? 'text-black' : 'text-white'}>  Tech</span>
+                <span className="text-blue-600">Dynamic</span>
+                <span className={theme === 'light' ? 'text-black' : 'text-white'}> Tech</span>
               </span>
             </Link>
           </motion.div>

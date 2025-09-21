@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -38,7 +37,7 @@ const TermsOfService = () => {
             <h2 className="text-2xl font-semibold mb-4">2. Intellectual Property</h2>
             <p>
               The service and its original content, features, and functionality are and will remain the exclusive 
-              property of Gifted Tech. Our services are protected by copyright, trademark, and other laws.
+              property of Dynamic Tech. Our services are protected by copyright, trademark, and other laws.
             </p>
             <p className="mt-4">
               Unless specifically stated, you may not modify, reproduce, distribute, create derivative works of, 
@@ -71,7 +70,7 @@ const TermsOfService = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">5. Limitation of Liability</h2>
             <p>
-              To the maximum extent permitted by law, Gifted Tech shall not be liable for any indirect, incidental, 
+              To the maximum extent permitted by law, Dynamic Tech shall not be liable for any indirect, incidental, 
               special, consequential, or punitive damages, or any loss of profits or revenue, whether incurred 
               directly or indirectly, or any loss of data, use, goodwill, or other intangible losses.
             </p>
@@ -80,7 +79,7 @@ const TermsOfService = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">6. Indemnification</h2>
             <p>
-              You agree to defend, indemnify, and hold harmless Gifted Tech and its employees, contractors, agents, 
+              You agree to defend, indemnify, and hold harmless Dynamic Tech and its employees, contractors, agents, 
               officers, and directors from and against any claims, liabilities, damages, losses, and expenses, 
               arising out of or in any way connected with your use of our services.
             </p>
@@ -89,7 +88,7 @@ const TermsOfService = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">7. Governing Law</h2>
             <p>
-              These Terms shall be governed by the laws of the jurisdiction in which Gifted Tech is established, 
+              These Terms shall be governed by the laws of the jurisdiction in which Dynamic Tech is established, 
               without regard to its conflict of law provisions.
             </p>
           </section>
