@@ -73,7 +73,7 @@ const navLinks: NavLink[] = [
 const socialLinks = [
   { name: 'GitHub', icon: FiGithub, url: 'https://github.com/mrfr8nk' },
   { name: 'Twitter', icon: FiTwitter, url: 'https://twitter.com/mrfr4nk' },
-  { name: 'Whatsapp', icon: FaWhatsapp, url: 'https://whatsapp.com/channel/0029Vb3hlgX5kg7G0nFggl0Y' },
+  { name: 'Whatsapp', icon: FaWhatsapp, url: 'https://wa.me/263719647303' },
   { name: 'Instagram', icon: FiInstagram, url: 'https://instagram.com/mrfrankofc' },
   { name: 'Email', icon: FiMail, url: 'mailto:darrelmucheri@gmail.com' }   
 ];
