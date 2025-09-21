@@ -389,8 +389,12 @@ const Index = () => {
               className="flex justify-center mb-4 p-1 rounded-full border-4 border-primary"
               variants={fadeInUp}
             >
-              <div className="flex items-center justify-center w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-r from-primary to-accent text-white text-4xl md:text-5xl font-bold shadow-xl">
-                DM
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shadow-xl">
+                <img 
+                  src="https://i.postimg.cc/prr8wNPX/20250809-091036.jpg" 
+                  alt="Darrell Mucheri - Founder" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </motion.div>
             <h2 className="text-3xl font-bold md:text-4xl">
