@@ -9,16 +9,14 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
     allowedHosts: [
-      "giftedtech.web.id",
-      "gifted-tech-website.vercel.app",         
-      "localhost"                 
+      "80e33047-ce32-41ec-87bf-3aa9e5111a85-00-107bi7k94ub93.kirk.replit.dev",
+      "gifted-tech-website.vercel.app",
+      "localhost",
     ],
   },
-  plugins: [
-    react(),
-    mode === 'development' &&
-    componentTagger(),
-  ].filter(Boolean),
+  plugins: [react(), mode === "development" && componentTagger()].filter(
+    Boolean,
+  ),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
