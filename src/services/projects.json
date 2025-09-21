@@ -62,5 +62,14 @@
     "link": "https://pairing.dynamictech.web.id",
     "source": "https://github.com/mrfr8nk/subzero-pairing",
     "tech": ["Node.js", "Baileys", "Express", "QR Code", "WhatsApp Web API", "HTML"]
+  },
+  {
+    "id": "dev-portfolio",
+    "title": "Dev Portfolio",
+    "image": "https://mrfrankk-cdn.hf.space/media/PORTIFOLIO.png",
+    "description": "Personal developer portfolio showcasing skills, projects, and achievements with modern design.",
+    "link": "https://mrfrankofc.gleeze.com",
+    "source": "https://github.com/mrfr8nk/dev-portfolio",
+    "tech": ["HTML", "CSS", "JavaScript", "Bootstrap", "Responsive Design"]
   }
 ]
