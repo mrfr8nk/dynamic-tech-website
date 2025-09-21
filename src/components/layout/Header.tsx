@@ -15,7 +15,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 
-const logoImage = 'https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//gifted-md.jpg';
+const logoImage = 'https://i.postimg.cc/Jng46x5S/Chat-GPT-Image-Sep-21-2025-07-48-37-AM.png';
 
 type NavLink = {
   name: string;
