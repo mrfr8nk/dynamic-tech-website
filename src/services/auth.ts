@@ -1,6 +1,6 @@
 
 /**
- * Authentication service for Gifted Tech
+ * Authentication service for Dynamic Tech
  */
 
 export interface User {
@@ -22,8 +22,8 @@ export interface RegisterData extends LoginCredentials {
 // Mock user for demonstration
 const MOCK_USER: User = {
   id: '4534927558823005602896',
-  name: 'Gifted DemoUser',
-  email: 'demouser@giftedtech.web.id',
+  name: 'Dynamic DemoUser',
+  email: 'demouser@dynamictech.web.id',
   avatar: 'https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//gifted-fav.png',
 };
 
@@ -32,7 +32,7 @@ let currentUser: User | null = null;
 const observers: ((user: User | null) => void)[] = [];
 
 // Store auth data in localStorage
-const AUTH_STORAGE_KEY = 'giftedtech_auth';
+const AUTH_STORAGE_KEY = 'dynamictech_auth';
 
 // Initialize auth state from localStorage if available
 const initAuthState = (): void => {
@@ -61,7 +61,7 @@ export const login = async (credentials: LoginCredentials): Promise<{ success: b
     await new Promise(resolve => setTimeout(resolve, 1000));
     
     // Simulate successful login (in a real app, this would validate against a backend)
-    if (credentials.email === 'demouser@giftedtech.web.id' && credentials.password === 'demo@123') {
+    if (credentials.email === 'demouser@dynamictech.web.id' && credentials.password === 'demo@123') {
       currentUser = MOCK_USER;
       localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify(currentUser));
       notifyObservers();
@@ -102,7 +102,7 @@ export const register = async (data: RegisterData): Promise<{ success: boolean; 
     
     return { 
       success: true,
-      message: 'Registration successful! Welcome to Gifted Tech.'
+      message: 'Registration successful! Welcome to Dynamic Tech.'
     };
   } catch (error) {
     console.error('Registration error:', error);

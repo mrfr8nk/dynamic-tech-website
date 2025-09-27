@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
+import { BsWhatsapp } from 'react-icons/bs';
 
 const Pricing = () => {
         const pricingPlans = [
@@ -412,24 +413,45 @@ const Pricing = () => {
                         ))}
                       </div>
 
-                      {/* Contact Us Button for each tier */}
-                      <motion.div
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        animate={{ 
-                          scale: [1, 1.03, 1],
-                          transition: { 
-                            duration: 2, 
-                            repeat: Infinity,
-                            repeatType: "reverse"
-                          } 
-                        }}
-                        className="mt-2"
-                      >
-                        <Button className="w-full" asChild>
-                          <a href="/contact">Contact Us</a>
-                        </Button>
-                      </motion.div>
+                      {/* Contact Us and WhatsApp Buttons for each tier */}
+                      <div className="mt-2 space-y-2">
+                        <motion.div
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                          animate={{ 
+                            scale: [1, 1.03, 1],
+                            transition: { 
+                              duration: 2, 
+                              repeat: Infinity,
+                              repeatType: "reverse"
+                            } 
+                          }}
+                        >
+                          <Button className="w-full" asChild>
+                            <a href="/contact">Contact Us</a>
+                          </Button>
+                        </motion.div>
+                        <motion.div
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                        >
+                          <Button 
+                            variant="outline" 
+                            className="w-full bg-green-500 hover:bg-green-600 text-white border-green-500"
+                            asChild
+                          >
+                            <a 
+                              href={`https://wa.me/263719647303?text=Hi! I'm interested in the ${tier.name} package for ${service.title}. Can you provide more details?`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center justify-center gap-2"
+                            >
+                              <BsWhatsapp className="w-4 h-4" />
+                              Chat on WhatsApp
+                            </a>
+                          </Button>
+                        </motion.div>
+                      </div>
                     </motion.div>
                   ))}
                 </div>
@@ -449,9 +471,27 @@ const Pricing = () => {
         <p className="mx-auto mb-6 text-lg text-muted-foreground max-w-prose">
           We can tailor our services to meet your specific business requirements
         </p>
-        <Button size="lg" asChild>
-          <a href="/contact">Get a Custom Quote</a>
-        </Button>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Button size="lg" asChild>
+            <a href="/contact">Get a Custom Quote</a>
+          </Button>
+          <Button 
+            size="lg" 
+            variant="outline"
+            className="bg-green-500 hover:bg-green-600 text-white border-green-500"
+            asChild
+          >
+            <a 
+              href="https://wa.me/263719647303?text=Hi! I need a custom quote for my project. Can we discuss the details?"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2"
+            >
+              <BsWhatsapp className="w-5 h-5" />
+              WhatsApp Us
+            </a>
+          </Button>
+        </div>
       </motion.div>
     </div>
   );

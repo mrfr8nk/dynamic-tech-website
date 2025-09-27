@@ -29,7 +29,7 @@ const PrivacyPolicy = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
             <p>
-              At Gifted Tech, we respect your privacy and are committed to protecting your personal data. 
+              At Dynamic Tech, we respect your privacy and are committed to protecting your personal data. 
               This Privacy Policy explains how we collect, use, and safeguard your information when you 
               visit our website or use our services.
             </p>

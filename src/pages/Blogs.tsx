@@ -28,7 +28,7 @@ const Blogs = () => {
       >
         <h1 className="mb-4 text-4xl font-bold md:text-5xl">Our Blog</h1>
         <p className="mx-auto mb-8 text-xl text-muted-foreground max-w-prose">
-          Insights, tutorials, and updates from Gifted Tech team
+          Insights, tutorials, and updates from Dynamic Tech team
         </p>
 
         <div className="relative max-w-md mx-auto">

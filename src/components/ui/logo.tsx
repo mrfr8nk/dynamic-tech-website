@@ -10,7 +10,7 @@ export function Logo({ className }: LogoProps) {
       <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-[#1EAEDB]">
         <img 
           src="https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//gifted-fav.png" 
-          alt="Gifted Tech Logo"
+          alt="Dynamic Tech Logo"
           className="w-full h-full object-cover"
         />
       </div>
