@@ -1,6 +1,6 @@
 # Overview
 
-Gifted Tech Website is a modern, responsive portfolio and business website for Gifted Tech Nexus, a digital solutions company. The website showcases services, projects, and expertise in web development, mobile app development, UI/UX design, and other tech solutions. Built as a single-page application with multiple routes, it features an animated interface, interactive components, dark/light theme support, and a comprehensive blog system.
+Dynamic Tech Website is a modern, responsive portfolio and business website for Dynamic Tech Nexus, a digital solutions company. The website showcases services, projects, and expertise in web development, mobile app development, UI/UX design, and other tech solutions. Built as a single-page application with multiple routes, it features an animated interface, interactive components, dark/light theme support, and a comprehensive blog system.
 
 # User Preferences
 
