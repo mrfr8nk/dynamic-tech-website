@@ -1,7 +1,7 @@
 [
   {
     "id": "how-to-deploy-a-react-app",
-    "author": "Dynamic Maurice",
+    "author": "MR FRANK",
     "date": "2024-04-21",
     "title": "How to Deploy a React App",
     "authorImage": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//mygifted2.png?w=500",
@@ -11,7 +11,7 @@
   },
   {
     "id": "mastering-typescript-in-react",
-    "author": "Dynamic Maurice",
+    "author": "MR FRANK",
     "date": "2024-04-18",
     "title": "Mastering TypeScript in React Applications",
     "authorImage": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//mygifted2.png?w=500",
@@ -21,7 +21,7 @@
   },
   {
     "id": "state-management-in-2024",
-    "author": "Dynamic Maurice",
+    "author": "MR FRANK",
     "date": "2024-04-15",
     "title": "Modern State Management in React for 2024",
     "authorImage": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//mygifted2.png?w=500",
@@ -31,17 +31,17 @@
   },
   {
     "id": "backened-vs-frontend-explained",
-    "author": "Dynamic Maurice",
+    "author": "MR FRANK",
     "date": "2024-04-21",
     "title": "Backend vs Frontend Explained",
     "authorImage": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//mygifted2.png?w=500",
     "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500",
     "excerpt": "Discover the difference between backend and frontend development in this beginner-friendly blog.",
-    "content": "When building web applications, development is typically divided into two main parts: frontend (what users see) and backend (what happens behind the scenes). Let's explore both with practical examples.\n\n## Frontend Development\n\nThe frontend is everything users interact with directly. Main technologies include:\n\n```html\n<!-- Example HTML structure -->\n<div class=\"user-profile\">\n  <img src=\"avatar.jpg\" alt=\"User Avatar\">\n  <h2>Welcome, <span id=\"username\">Guest</span></h2>\n  <button onclick=\"fetchUserData()\">Load Profile</button>\n</div>\n```\n\n```javascript\n// Example JavaScript for dynamic content\nfunction fetchUserData() {\n  fetch('/api/user')\n    .then(response => response.json())\n    .then(data => {\n      document.getElementById('username').textContent = data.name;\n    });\n}\n```\n\nKey frontend frameworks:\n- React\n- Angular\n- Vue.js\n\n## Backend Development\n\nThe backend handles business logic, databases, and authentication:\n\n```javascript\n// Node.js/Express API endpoint example\nconst express = require('express');\nconst app = express();\n\napp.get('/api/user', (req, res) => {\n  // Database query would go here\n  res.json({\n    name: \"Gifted Maurice\",\n    email: \"gifted@example.com\"\n  });\n});\n\napp.listen(3000, () => {\n  console.log('Server running on port 3000');\n});\n```\n\nCommon backend languages:\n- Node.js\n- Python (Django/Flask)\n- Ruby on Rails\n- Java Spring\n\n## Full Stack Example\n\nHere's how they work together:\n\n1. Frontend makes request:\n```javascript\nfetch('/api/products')\n  .then(res => res.json())\n  .then(products => renderProducts(products));\n```\n\n2. Backend processes request:\n```python\n# Python Flask example\n@app.route('/api/products')\ndef get_products():\n    products = db.execute('SELECT * FROM products')\n    return jsonify(products)\n```\n\n3. Database returns data:\n```sql\n-- Sample SQL table structure\nCREATE TABLE products (\n  id INT PRIMARY KEY,\n  name VARCHAR(100),\n  price DECIMAL(10,2)\n);\n```\n\n## Key Differences\n\n| Aspect          | Frontend               | Backend                |\n|----------------|-----------------------|-----------------------|\n| Languages      | HTML, CSS, JavaScript | JavaScript, Python, etc |\n| Focus          | User experience       | Business logic        |\n| Tools          | Chrome DevTools       | Postman, SQL clients |\n| Performance    | Rendering speed       | Query optimization   |\n\n## When to Use Each\n\nChoose frontend if you enjoy:\n- Visual design\n- Creating interactive UIs\n- Working with animations\n\nChoose backend if you prefer:\n- Data processing\n- Algorithm design\n- Server architecture\n\nModern developers often learn both (full-stack) to build complete applications!\n\n```javascript\n// Full-stack JavaScript example (MERN Stack)\n// Frontend React component\nfunction UserList() {\n  const [users, setUsers] = useState([]);\n\n  useEffect(() => {\n    axios.get('/api/users').then(res => setUsers(res.data));\n  }, []);\n\n  return (\n    <ul>\n      {users.map(user => (\n        <li key={user.id}>{user.name}</li>\n      ))}\n    </ul>\n  );\n}\n\n// Backend Express route\napp.get('/api/users', async (req, res) => {\n  const users = await User.find();\n  res.json(users);\n});\n```\n\nRemember: Both frontend and backend are equally important - like two sides of the same coin!"
+    "content": "When building web applications, development is typically divided into two main parts: frontend (what users see) and backend (what happens behind the scenes). Let's explore both with practical examples.\n\n## Frontend Development\n\nThe frontend is everything users interact with directly. Main technologies include:\n\n```html\n<!-- Example HTML structure -->\n<div class=\"user-profile\">\n  <img src=\"avatar.jpg\" alt=\"User Avatar\">\n  <h2>Welcome, <span id=\"username\">Guest</span></h2>\n  <button onclick=\"fetchUserData()\">Load Profile</button>\n</div>\n```\n\n```javascript\n// Example JavaScript for dynamic content\nfunction fetchUserData() {\n  fetch('/api/user')\n    .then(response => response.json())\n    .then(data => {\n      document.getElementById('username').textContent = data.name;\n    });\n}\n```\n\nKey frontend frameworks:\n- React\n- Angular\n- Vue.js\n\n## Backend Development\n\nThe backend handles business logic, databases, and authentication:\n\n```javascript\n// Node.js/Express API endpoint example\nconst express = require('express');\nconst app = express();\n\napp.get('/api/user', (req, res) => {\n  // Database query would go here\n  res.json({\n    name: \"MR FRANK\",\n    email: \"gifted@example.com\"\n  });\n});\n\napp.listen(3000, () => {\n  console.log('Server running on port 3000');\n});\n```\n\nCommon backend languages:\n- Node.js\n- Python (Django/Flask)\n- Ruby on Rails\n- Java Spring\n\n## Full Stack Example\n\nHere's how they work together:\n\n1. Frontend makes request:\n```javascript\nfetch('/api/products')\n  .then(res => res.json())\n  .then(products => renderProducts(products));\n```\n\n2. Backend processes request:\n```python\n# Python Flask example\n@app.route('/api/products')\ndef get_products():\n    products = db.execute('SELECT * FROM products')\n    return jsonify(products)\n```\n\n3. Database returns data:\n```sql\n-- Sample SQL table structure\nCREATE TABLE products (\n  id INT PRIMARY KEY,\n  name VARCHAR(100),\n  price DECIMAL(10,2)\n);\n```\n\n## Key Differences\n\n| Aspect          | Frontend               | Backend                |\n|----------------|-----------------------|-----------------------|\n| Languages      | HTML, CSS, JavaScript | JavaScript, Python, etc |\n| Focus          | User experience       | Business logic        |\n| Tools          | Chrome DevTools       | Postman, SQL clients |\n| Performance    | Rendering speed       | Query optimization   |\n\n## When to Use Each\n\nChoose frontend if you enjoy:\n- Visual design\n- Creating interactive UIs\n- Working with animations\n\nChoose backend if you prefer:\n- Data processing\n- Algorithm design\n- Server architecture\n\nModern developers often learn both (full-stack) to build complete applications!\n\n```javascript\n// Full-stack JavaScript example (MERN Stack)\n// Frontend React component\nfunction UserList() {\n  const [users, setUsers] = useState([]);\n\n  useEffect(() => {\n    axios.get('/api/users').then(res => setUsers(res.data));\n  }, []);\n\n  return (\n    <ul>\n      {users.map(user => (\n        <li key={user.id}>{user.name}</li>\n      ))}\n    </ul>\n  );\n}\n\n// Backend Express route\napp.get('/api/users', async (req, res) => {\n  const users = await User.find();\n  res.json(users);\n});\n```\n\nRemember: Both frontend and backend are equally important - like two sides of the same coin!"
   },
   {
     "id": "nodejs-best-practices",
-    "author": "Dynamic Maurice",
+    "author": "MR FRANK",
     "date": "2025-04-21",
     "title": "Node.js Best Practices",
     "authorImage": "https://zanalydpkhnbrjipfldc.supabase.co/storage/v1/object/public/juustgifted//mygifted2.png?w=500",
